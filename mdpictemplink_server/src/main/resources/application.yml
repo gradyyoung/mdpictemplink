@@ -1,0 +1,13 @@
+server:
+  port: 17878
+
+
+# 图片链接host
+picLink:
+  host: http://localhost:17878/
+
+spring:
+  resources:
+    static-locations: file:d:/TempFile
+
+clearCron: 0 0 0 * * ?
